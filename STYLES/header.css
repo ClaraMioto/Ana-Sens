@@ -17,17 +17,17 @@
 
 
 @media screen and (min-width: 820px) {
-    . container_título, .container_título--negrito
-    {font-size: 30px;
-    }   
+    .container__título, .container__título--negrito {
+        font-size: 30px;
 
-.container_título{
-    font-weight: 400;
-    display: block;
-}
+    }
+    .container__título {
+        font-weight: 400;
+        display: block;
+    }
 }
 @media screen and (win-width: 1024px) {
-    .container_frase{
+    .container__frase{
         padding-left: 5em;
         font-size: 20px;
         display: block;
